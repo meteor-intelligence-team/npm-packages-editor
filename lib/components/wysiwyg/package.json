@@ -1,0 +1,12 @@
+{
+ "private": true,
+ "name": "wysiwyg-react",
+ "main": "./Wysiwyg.js",
+ "dependencies": {
+   "react": "^15.4.0",
+   "react-dom": "^15.4.0",
+    "draft-js": "^0.10.0",
+    "draft-js-export-html": "^0.5.2",
+    "semantic-ui-css": "^2.2.0"
+ }
+}
