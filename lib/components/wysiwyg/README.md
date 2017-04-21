@@ -1,5 +1,7 @@
 # react-wysiwyg
 
+[![npm version](https://badge.fury.io/js/react-share.svg)](https://badge.fury.io/js/react-share)
+[![Download Count](http://img.shields.io/npm/dm/react-share.svg?style=flat-square)](https://npmjs.org/package/react-share)
 
 > Simple [React](http://facebook.github.io/react/index.html) component for
 > a rich editor text and the conversion to render HTML
@@ -7,13 +9,13 @@
 ## Install
 
 ```bash
-npm install react-wysiwyg --save
+npm install mx-react-wysiwyg --save
 ```
 
 ## Example
 
 ```javascript
-import { Wysiwyg, ConvertToHTML } from "react-wysiwyg";
+import { Wysiwyg, ConvertToHTML } from "mx-react-wysiwyg";
 
 class App extends Component {
 

@@ -1,6 +1,6 @@
 {
-  "name": "react-wysiwyg",
-  "version": "1.9.0",
+  "name": "mx-react-wysiwyg",
+  "version": "0.0.2",
   "description": "React visual rich text editor with many options..",
   "main": "wysiwyg.js",
   "peerDependencies": {
