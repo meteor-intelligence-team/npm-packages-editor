@@ -55,7 +55,7 @@ class App extends Component {
 #### Wysiwyg props
 
 |       |Format|Required|What it does ?|
-|-------|--------|--------------|
+|-------|-------|-------|-------|
 |onChange|`{function}`| YES | Takes a function that return <br/>the content of the editor
 |value|`Object`| NO | You can make `Wysiwyg` a controlled <br/> component by giving it a draft-js map value
 |bold|`Bool`| NO | default to true <br/> pass it to false to disable bold style
@@ -70,7 +70,7 @@ class App extends Component {
 #### ConvertToHTML props
 
 |       |Format|Required|What it does ?|
-|-------|--------|--------------|
+|-------|-------|-------|-------|
 |html|`Object`| YES | Object from the Wysiwyg editor
 
 

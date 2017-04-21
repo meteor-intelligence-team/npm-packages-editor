@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {Wysiwyg, ConvertToHTML} from "./node_modules/components/wysiwyg"
-//import {Wysiwyg, ConvertToHTML} from "mx-react-wysiwyg"
-
+//import {Wysiwyg, ConvertToHTML} from "./node_modules/components/wysiwyg"
+import {Wysiwyg, ConvertToHTML} from "mx-react-wysiwyg"
 
 class App extends Component {
   constructor(props){
