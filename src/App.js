@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Wysiwyg from "components/wysiwyg"
+import {Wysiwyg, ConvertToHTML} from "./node_modules/components/wysiwyg"
 
 class App extends Component {
   constructor(props){
@@ -15,6 +15,7 @@ class App extends Component {
   updateValue(value){
     this.setState({value})
   }
+
   render() {
     return (
       <div className="App">
@@ -23,12 +24,13 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
 
-        <p style={{marginTop: 50, width: "80%", margin:"auto"}}>
+        <div style={{marginTop: 50, width: "80%", margin:"auto"}}>
           <Wysiwyg
-            title={true}
             onChange={this.updateValue.bind(this)}
-            value={this.state.value}/>
-        </p>
+            value={this.state.value}
+          />
+        </div>
+        <ConvertToHTML html={this.state.value}/>
       </div>
     );
   }

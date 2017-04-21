@@ -1,12 +1,39 @@
 {
- "private": true,
- "name": "wysiwyg-react",
- "main": "./Wysiwyg.js",
- "dependencies": {
-   "react": "^15.4.0",
-   "react-dom": "^15.4.0",
-    "draft-js": "^0.10.0",
-    "draft-js-export-html": "^0.5.2",
-    "semantic-ui-css": "^2.2.0"
- }
+  "name": "react-wysiwyg",
+  "version": "1.9.0",
+  "description": "React visual rich text editor with many options..",
+  "main": "wysiwyg.js",
+  "peerDependencies": {
+    "react": ">=0.13.0"
+  },
+  "devDependencies": {
+    "draft-js": "~2.1.1",
+    "draft-js-export-html": "^0.5.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "semantic-ui-css": "^2.0.0",
+    "babel-polyfill": "^6.23.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meteor-intelligence-team/react-wysiwyg"
+  },
+  "keywords": [
+    "react",
+    "wysiwyg",
+    "editor",
+    "draft-js",
+    "rich",
+    "text",
+    "component",
+    "javascript",
+    "react-component"
+  ],
+  "author": "Francois AUBEUT",
+  "contributors": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meteor-intelligence-team/react-wysiwyg/issues"
+  },
+  "homepage": "https://github.com/meteor-intelligence-team/react-wysiwyg"
 }

@@ -11,14 +11,16 @@
 }
 
 .RichEditor-controls {
-  margin-right: 10px;
+  margin-right: 10px !important;
+  background-color: #fff !important;
 }
 
 .RichEditor-controls .button {
-  background: white !important;
+  background-color: #fff !important;
 }
+
 .RichEditor-controls .active.button {
-  background: rgba(0,0,0,.05)!important;
+  background-color: rgba(0,0,0,.05)!important;
 }
 
 .RichEditor-editor{
@@ -33,7 +35,17 @@
   overflow-y: auto;
   overflow-x: hidden;
 }
+
 .RichEditor-editor blockquote {
+  margin:0;
+  padding: 10px;
+  margin: 15px;
+  border: 1px solid grey;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.wysiwyg-result  blockquote {
   margin:0;
   padding: 10px;
   margin: 15px;
