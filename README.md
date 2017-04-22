@@ -24,35 +24,35 @@ You can use yarn if you are more confortable with it.
 Our editor is structured this way
 
     npm-packages-editor/
-	    lib/
-		    components/
-				    YourComponent/
-					    index.js
-					    package.json
-					    YourComponent.js
-					    README.md
-	    node_modules/
+	 lib/
+	   components/
+	     YourComponent/
+		index.js
 		package.json
-	    public/
-	        index.html
-	        favicon.ico
-	    src/
-		    App.css
-	        App.js
-	        App.test.js
-	        index.css
-	        index.js
-	        logo.svg
-		    node_modules/
-			    components/
-				    YourComponent/
-					    index.js
-					    package.json
-					    YourComponent.js
-					    README.md
-	    .babelrc
-	    package.json
-	    README.md
+		YourComponent.js
+		README.md
+	 node_modules/
+	   package.json
+	   public/
+	     index.html
+	     favicon.ico
+	 src/
+	   App.css
+	   App.js
+	   App.test.js
+	   index.css
+	   index.js
+	   logo.svg
+	   node_modules/
+	      components/
+	         YourComponent/
+		    index.js
+		    package.json
+		    YourComponent.js
+		    README.md
+	  .babelrc
+	  package.json
+	  README.md
       
 
 <i class="icon-code"></i> Development - the src folder
